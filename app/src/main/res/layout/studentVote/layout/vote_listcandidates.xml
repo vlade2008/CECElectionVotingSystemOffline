@@ -1,0 +1,89 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activityMainDrawerLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:padding="3dp">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentTop="true">
+
+
+        <LinearLayout
+            android:id="@+id/some_layout_item"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <RelativeLayout
+                android:id="@+id/relativeLayout4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp"
+                android:orientation="horizontal"
+                android:background="@drawable/list_selector"
+                android:layout_below="@+id/activityMainheaderLayout"
+                >
+
+                <de.hdodenhof.circleimageview.CircleImageView
+                    android:id="@+id/imageView3"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    app:civ_border_width="2dp"
+                    app:civ_border_color="#23538a"
+                    android:src="@drawable/ic_account_box" />
+                <TextView
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:id="@+id/textcandidateID"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="5dp"
+                    android:text="1."
+                    android:textSize="18sp"
+                    android:fontFamily="@string/font_family"
+                    android:textColor="#212121"/>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_toRightOf="@+id/imageView3"
+                    android:layout_marginLeft="10dp"
+                    android:orientation="vertical"
+                    android:id="@+id/linearLayout">
+
+
+                    <TextView
+                        android:id="@+id/textCandidateName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="@android:color/black"
+                        android:text="Christian John Saclao"
+                        android:layout_marginTop="7dp" />
+                    <TextView
+                        android:id="@+id/textCandidateparty"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14sp"
+                        android:textColor="@android:color/darker_gray"
+                        android:text="National Party" />
+
+
+
+
+                </LinearLayout>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:background="#23538a">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="150dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/logo"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Develop By:"
+        android:id="@+id/textView6"
+        android:fontFamily="@string/font_family_light"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="5dp"
+        android:layout_below="@+id/textView3"
+        android:layout_marginBottom="2dp"
+        android:textColor="#fcf6ff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Balo, Jezreel"
+        android:id="@+id/textView7"
+        android:fontFamily="@string/font_family_light"
+        android:layout_below="@+id/textView6"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fcf6ff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="E L E C T I O N"
+        android:id="@+id/textView"
+        android:textIsSelectable="false"
+        android:textSize="25dp"
+        android:fontFamily="@string/font_family_light"
+        android:layout_below="@+id/imageView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fcf6ff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="______________________________________"
+        android:id="@+id/textView2"
+        android:textIsSelectable="false"
+        android:textSize="15dp"
+        android:fontFamily="@string/font_family_light"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fcf6ff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="VOTING SYSTEM"
+        android:id="@+id/textView3"
+        android:textIsSelectable="false"
+        android:textSize="30dp"
+        android:fontFamily="@string/font_family"
+        android:layout_below="@+id/textView2"
+        android:layout_centerHorizontal="true"
+        android:textStyle="bold"
+        android:textColor="#fcf6ff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Lofranco, Rubygail"
+        android:id="@+id/textView12"
+        android:fontFamily="@string/font_family_light"
+        android:layout_below="@+id/textView7"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fcf6ff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Saclao, Christian John"
+        android:id="@+id/textView13"
+        android:fontFamily="@string/font_family_light"
+        android:layout_below="@+id/textView12"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fcf6ff" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:text="Taculod, Jesse Jen"
+        android:id="@+id/textView16"
+        android:fontFamily="@string/font_family_light"
+        android:layout_below="@+id/textView13"
+        android:layout_centerHorizontal="true"
+        android:textColor="#fcf6ff" />
+
+</RelativeLayout>
